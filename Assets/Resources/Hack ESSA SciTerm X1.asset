@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3df256049fa563a4d9852a30611a878c, type: 3}
-  m_Name: Hack MG SureSafe GP900
+  m_Name: Hack ESSA SciTerm X1
   m_EditorClassIdentifier: 
-  deviceName: MG SureSafe GP900
-  difficulty: 9
-  type: 2
-  weakAgainst: 04000000
-  strongAgainst: 0100000000000000
-  description: Top of the line bank level security in the conveniance of your own
-    home. Made by MG.
+  deviceName: ESSA SciTerm X1
+  difficulty: 1
+  type: 0
+  weakAgainst: 0200000001000000
+  strongAgainst: 04000000
+  description: ESSA brand access control terminal for basic lab security.

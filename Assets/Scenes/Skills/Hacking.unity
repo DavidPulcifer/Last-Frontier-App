@@ -6703,8 +6703,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleArray:
+  - {fileID: 11400000, guid: fd8dec9be0006bb4ba42f42be3891663, type: 2}
   - {fileID: 11400000, guid: 9e4c39808fb56c14cb6d058a1f01d856, type: 2}
   - {fileID: 11400000, guid: 614527c2391b3774298ad285fa60ca52, type: 2}
+  - {fileID: 11400000, guid: b0c3a8d5b5de65044a47ba164d5183b9, type: 2}
+  - {fileID: 11400000, guid: 7e0b1a7057d9446459f4c1f0cac8d44e, type: 2}
   successInstructions: 1234
   soundPlayer: {fileID: 332523920}
   maxEnergy: 10

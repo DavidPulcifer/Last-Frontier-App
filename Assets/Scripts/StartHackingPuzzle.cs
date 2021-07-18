@@ -47,11 +47,11 @@ public class StartHackingPuzzle : MonoBehaviour
             child.gameObject.SetActive(true);
             yield return new WaitForSeconds(appearDelay);
         }
-        yield return new WaitForSeconds(scanningSlider.maxValue / 3);
+        yield return new WaitForSeconds(scanningSlider.maxValue / 6);
         soundPlayer.PlayRandomSound(soundPlayer.compSFX, 0.5f);
-        yield return new WaitForSeconds(scanningSlider.maxValue / 3);
+        yield return new WaitForSeconds(scanningSlider.maxValue / 6);
         soundPlayer.PlayRandomSound(soundPlayer.compSFX, 0.5f);
-        yield return new WaitForSeconds(scanningSlider.maxValue / 3);
+        yield return new WaitForSeconds(scanningSlider.maxValue / 6);
         soundPlayer.PlayRandomSound(soundPlayer.compSFX, 0.5f);
     }
 }

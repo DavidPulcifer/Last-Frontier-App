@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3df256049fa563a4d9852a30611a878c, type: 3}
-  m_Name: Hack MG SureSafe GP900
+  m_Name: Hack MG SureSafe GP100
   m_EditorClassIdentifier: 
-  deviceName: MG SureSafe GP900
-  difficulty: 9
+  deviceName: MG SureSafe GP100
+  difficulty: 1
   type: 2
-  weakAgainst: 04000000
-  strongAgainst: 0100000000000000
-  description: Top of the line bank level security in the conveniance of your own
-    home. Made by MG.
+  weakAgainst: 0300000000000000
+  strongAgainst: 04000000
+  description: Low end safe mechanism. Made by MG.

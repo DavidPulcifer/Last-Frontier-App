@@ -90,7 +90,8 @@ public class HackingPuzzleManager : MonoBehaviour
 
     public void ScanPuzzle()
     {
-        soundPlayer.PlayRandomSound(soundPlayer.typingClips, 0.5f);
+
+        StartCoroutine(ScanSoundEffect());
         if (isScanned) return;
         if(!SpendEnergy(scanCost)) return;
         isScanned = true;
@@ -133,6 +134,13 @@ public class HackingPuzzleManager : MonoBehaviour
         noEnergyCanvas.SetActive(false);
         UpdateEnergy();
         UpdateButtons();
+    }
+
+    IEnumerator ScanSoundEffect()
+    {
+        soundPlayer.PlayRandomSound(soundPlayer.compSFX, 0.5f);
+        yield return new WaitForSeconds(0.25f);
+        soundPlayer.PlayRandomSound(soundPlayer.typingClips, 0.5f);
     }
 
     void AttackLock(HackingMethod attackType, int power)
